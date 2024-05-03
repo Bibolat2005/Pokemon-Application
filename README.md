@@ -26,5 +26,14 @@ Application at demo stages
   <li>Pokemon list fragment</li>
 </ul>
 
+<strong>Libraries:</strong>  
+<ul>
+  <li>Retrofit 2</li>
+  <li>Gson</li>
+  <li>RxJava 2</li>
+  <li>Glide</li>
+  <li>Card View</li>
+</ul>
+
 https://github.com/Kjell4/Android-Dev-Project/assets/122877461/af1db933-b00b-4841-addf-f811301f36a7
 

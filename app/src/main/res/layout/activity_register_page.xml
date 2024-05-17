@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/screen"
     android:padding="40dp"
-    tools:context=".MainActivity">
+    tools:context=".RegisterPage">
 
     <TextView
         android:layout_width="match_parent"
@@ -15,12 +15,12 @@
         android:textStyle="bold"
         android:textSize="25dp"
         android:textColor="@color/white"
-        android:text="Welcome Back"/>
+        android:text="Hello,"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log in!"
+        android:text="Sign Up"
         android:textColor="@color/white"
         android:textSize="50dp"
         android:textStyle="bold"/>
@@ -61,12 +61,12 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/sign_in"
+        android:id="@+id/sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:text="SIGN IN"
+        android:text="SIGN UP"
         android:background="@drawable/round_btn"
         android:layout_marginTop="100dp"/>
 
@@ -80,26 +80,20 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"
+            android:text="Already have an account?"
             android:textSize="15dp"
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/sign_up"
+            android:id="@+id/sign_in"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up"
+            android:text="Sign In"
             android:textStyle="bold"
             android:textSize="17dp"
             android:textColor="@color/blue"
             android:layout_marginLeft="10dp"/>
 
     </LinearLayout>
-
-
-    <FrameLayout
-        android:id="@+id/fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
 
 </LinearLayout>

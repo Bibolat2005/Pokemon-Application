@@ -63,5 +63,6 @@ class PokemonList : Fragment() {
         super.onDestroyView()
         compositeDisposable.clear()
     }
+    // destroy
 }
 

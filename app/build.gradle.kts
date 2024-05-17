@@ -37,6 +37,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
 }
 
 dependencies {
@@ -51,8 +52,10 @@ dependencies {
     implementation("io.reactivex.rxjava2:rxandroid:2.1.1")
     implementation("com.squareup.retrofit2:adapter-rxjava2:2.7.1")
     implementation("com.github.bumptech.glide:glide:4.14.2")
+    implementation("com.robertlevonyan.view:MaterialChipView:3.0.8")
     implementation("com.google.firebase:firebase-auth:23.0.0")
     implementation("androidx.activity:activity:1.8.0")
+    implementation("com.google.firebase:firebase-auth-ktx:23.0.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.14.2")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.9.1")
     implementation("com.google.android.material:material:1.11.0")

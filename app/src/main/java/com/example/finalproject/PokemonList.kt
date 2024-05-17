@@ -54,7 +54,6 @@ class PokemonList : Fragment() {
                     pokemonRecyclerView.adapter = adapter
                 }, { error ->
                     error.printStackTrace()
-                    // Обработка ошибок при получении данных
                 })
         )
     }

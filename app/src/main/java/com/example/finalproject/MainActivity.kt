@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.example.finalproject.common.Common
 import com.google.firebase.auth.FirebaseAuth
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
 
@@ -63,5 +64,13 @@ class MainActivity : AppCompatActivity() {
         LocalBroadcastManager.getInstance(this)
             .registerReceiver(showEvolution, IntentFilter(Common.KEY_NUM_EVOLUTION))
     }
+    fun backActivity(view: View) {
+        if (supportFragmentManager.backStackEntryCount > 0) {
+            supportFragmentManager.popBackStackImmediate()
+        } else {
+            finish()
+        }
+    }
+
 
 }
